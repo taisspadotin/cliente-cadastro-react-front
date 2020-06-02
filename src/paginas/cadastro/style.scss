@@ -1,0 +1,70 @@
+/*$corFocus: #b14d51;*/
+$corFocus: #36244a;
+$cinza1: #dededf;
+$cor1: #76002c;
+$cor_font: #dcdcdc;
+@mixin font-title{
+	/*font-family: 'Liu Jian Mao Cao', cursive;*/
+	font-family: 'Comfortaa', cursive;
+}
+@mixin font-body{
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+@mixin foco{
+	box-shadow: 0 0 4px lighten($cor1, 50) !important;
+	border-color:  lighten($cor1, 50) !important;
+	/*background: lighten($corFocus, 50) !important;*/
+}
+
+
+
+
+.botao-su{
+	background: $cor1 !important;
+	width: 150px;
+	margin-top: 1px !important;
+	color: #dcdcdc !important;
+	&:hover{
+		background: lighten($cor1, 10) !important;
+		color: #fff;
+	}
+}
+fieldset{
+	border-radius: 10px;
+	border: 1px solid #000 !important;
+	
+	legend{
+		color: #000;
+		@include font-body;
+		padding-left:5px;
+		padding-right:5px;
+		font-size: 1.1em;
+		font-weight: bold;
+		width: auto;
+		
+	}
+}
+
+
+
+/*
+.titulo{
+	margin-bottom: 20px;
+	padding-top:10px;
+	width:100%;
+	text-align:center;
+	h2{
+		color: $cor1;
+		@include font-title;
+		padding-bottom:5px;
+		font-size: 3em;
+		font-weight: bold;
+	}	
+}
+*/
+
+.hr-body{
+	border-color: #33234950;
+}
