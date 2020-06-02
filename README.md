@@ -16,3 +16,14 @@ O cliente pode ter 1 ou N endereços, ou seja o primeiro endereço não poderá 
 npm install
 npm start
 ```
+
+## Telas do sistema:
+### Login
+<img src="https://raw.githubusercontent.com/taisspadotin/cadastro-cliente-frontend/master/imagens/login.png">
+
+### Home
+<img src="https://raw.githubusercontent.com/taisspadotin/cadastro-cliente-frontend/master/imagens/home.png">
+
+### Cadastro
+<img src="https://raw.githubusercontent.com/taisspadotin/cadastro-cliente-frontend/master/imagens/cadastro1.png">
+<img src="https://raw.githubusercontent.com/taisspadotin/cadastro-cliente-frontend/master/imagens/cadastro2.png">
